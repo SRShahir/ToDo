@@ -11,52 +11,68 @@
     box-sizing: border-box;
 }
 
+/* .bookmark {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 15px;
+    box-shadow: -1px 3px 16px 6px rgba(0, 217, 255, 0.43);
+}
+
+*/
 html,
 body {
-    position: relative;
+
     width: 100%;
     font-family: 'Roboto', sans-serif;
-    background: #e6f0ef;
+}
+
+.div {
+    display: flex;
+    gap: 8px;
+    /* margin: auto; */
+    justify-content: center;
+    align-items: center;
+}
+
+#name {
+    text-align: center;
+    font-size: 20px;
+    border-radius: 6px;
+    padding: 8px;
+    text-transform: capitalize;
 }
 
 .container {
-    position: relative;
+
     width: 600px;
-    background: #263422;
+    border: 2px solid black;
     padding: 24px;
     margin: 100px auto;
-    border-radius: 25px;
-
+    border-radius: 15px;
+    box-shadow: 1px 1px 15px 1px rgb(26, 100, 115);
 }
 
 
 
 .container .title {
-    color: #ffffff;
-    font-size: 2rem;
+    color: #0a0909;
+    font-size: 30px;
     text-align: center;
-    text-transform: capitalize;
     margin-bottom: 3rem;
 
 }
 
-.container .input-box-wrpper {
-    position: relative;
-}
 
 
 
-#btn {
-    /*display: flex;
-    text-decoration: none;
-    padding: 20px;*/
+.btn {
+
     cursor: pointer;
-    background-color: rgb(234, 234, 241);
+
     font-size: 20px;
-    flex-wrap: wrap;
     transition: 0.5s;
     border-radius: 10px;
-    color: brown;
+    padding: 8px;
 }
 
 .input-box-wrpper .box {
@@ -66,4 +82,17 @@ body {
     border: 1px solid #fff;
     border-bottom: 0;
     padding: 14px 10px;
+}
+
+#text .btn {
+    position: initial;
+    margin-top: 50px;
+
+}
+
+input[type=checkbox] {
+    margin: 20px;
+    /* padding: 20px; */
+    /* height: 15px; */
+    transform: scale(2.0);
 }
